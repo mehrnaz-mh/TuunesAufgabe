@@ -1,0 +1,88 @@
+{
+    "ringtones": [
+        {
+            "id": "1",
+            "title": "Flowers",
+            "artist": "Miley Cyrus",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "/assets/ringtones/ringtone1.mp3"
+        },
+        {
+            "id": "2",
+            "title": "Sunset",
+            "artist": "John Legend",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone2.mp3"
+        },
+        {
+            "id": "3",
+            "title": "Ocean Waves",
+            "artist": "Adele",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone3.mp3"
+        },
+        {
+            "id": "4",
+            "title": "Fireflies",
+            "artist": "Owl City",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone4.mp3"
+        },
+        {
+            "id": "5",
+            "title": "City Lights",
+            "artist": "Ed Sheeran",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone5.mp3"
+        },
+        {
+            "id": "6",
+            "title": "Morning Breeze",
+            "artist": "Taylor Swift",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone6.mp3"
+        },
+        {
+            "id": "7",
+            "title": "Rainy Day",
+            "artist": "Coldplay",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone7.mp3"
+        },
+        {
+            "id": "8",
+            "title": "Nightfall",
+            "artist": "The Weeknd",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone8.mp3"
+        },
+        {
+            "id": "9",
+            "title": "Whispering Wind",
+            "artist": "Sam Smith",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone9.mp3"
+        },
+        {
+            "id": "10",
+            "title": "Serene Forest",
+            "artist": "Enya",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone10.mp3"
+        },
+        {
+            "id": "11",
+            "title": "Celestial Dreams",
+            "artist": "Lana Del Rey",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone11.mp3"
+        },
+        {
+            "id": "12",
+            "title": "Sparkling Waters",
+            "artist": "Shawn Mendes",
+            "artwork": "https://picsum.photos/200/300",
+            "audio": "./assets/ringtones/ringtone12.mp3"
+        }
+    ]
+}
