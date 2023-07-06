@@ -2,7 +2,6 @@ import React from "react";
 import {
   SafeAreaView,
   FlatList,
-  ScrollView,
   TouchableOpacity,
   Text,
   Image,
@@ -15,39 +14,38 @@ import ringtones from "../../ringtones.json";
 export default function ListScreen({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
-      <ScrollView style={styles.scrollView}>
-        <FlatList
-          data={ringtones.ringtones}
-          renderItem={({ item }) => (
-            <TouchableOpacity
-              style={styles.item}
-              onPress={() => navigation.navigate("Detail", { ringtone: item })}
-            >
-              <View style={styles.counter}>
-                <Text style={styles.counterNum}>{item.id}</Text>
-              </View>
-              <Image source={{ uri: item.artwork }} style={styles.itemImage} />
-              <View style={{ left: 20 }}>
-                <Text style={styles.itemTitle}>{item.title}</Text>
-                <Text style={styles.itemArtist}>{item.artist}</Text>
-              </View>
-            </TouchableOpacity>
-          )}
-          keyExtractor={(item) => item.id}
-        />
-      </ScrollView>
+      <FlatList
+        data={ringtones.ringtones}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            style={styles.item}
+            onPress={() => navigation.navigate("Detail", { ringtone: item })}
+          >
+            <View style={styles.counter}>
+              <Text style={styles.counterNum}>{item.id}</Text>
+            </View>
+            <Image source={{ uri: item.artwork }} style={styles.itemImage} />
+            <View style={{ left: 20 }}>
+              <Text style={styles.itemTitle}>{item.title}</Text>
+              <Text style={styles.itemArtist}>{item.artist}</Text>
+            </View>
+          </TouchableOpacity>
+        )}
+        keyExtractor={(item) => item.id}
+        style={styles.flatList}
+      />
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: "#131b23",
-    marginHorizontal: 15,
-  },
   container: {
+    flex: 1,
     marginTop: StatusBar.currentHeight || 0,
     backgroundColor: "#131b23",
+  },
+  flatList: {
+    marginHorizontal: 15,
   },
   item: {
     flexDirection: "row",
